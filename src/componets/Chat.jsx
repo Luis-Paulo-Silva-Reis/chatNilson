@@ -109,7 +109,7 @@ export default function App() {
         id: 1,
         author: "BOT",
         text:
-          "Olá, eu sou Chatnilson, tudo bem? Para começarmos, preciso saber seu nome.",
+          "Olá, eu sou Chatnilson, tudo bem? Para começarmos, preciso saber seu nome. ",
       },
       {
         id: 2,
