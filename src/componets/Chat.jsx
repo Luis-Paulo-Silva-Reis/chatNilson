@@ -1,8 +1,6 @@
 import { ErrorMessage, Field, Form, Formik } from "formik";
-import { useEffect, useRef, useState } from "react";
+import {  useRef, useState } from "react";
 import "./styles.css";
-
-import * as yup from "yup";
 import axios from "axios";
 import schema from "./schema";
 
