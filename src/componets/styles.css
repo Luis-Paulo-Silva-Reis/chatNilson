@@ -1,0 +1,64 @@
+.App {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.message {
+  background-color: white;
+  border: 1px solid black;
+}
+
+.message-input {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.bot-message {
+  width: 400px;
+}
+
+.bot-message p {
+  margin-left: 50px;
+}
+
+.user-message {
+  display: flex;
+  flex-direction: row-reverse;
+
+  background-color: gray;
+  color: black;
+  text-align: center;
+  width: 400px;
+  justify-content: center;
+  padding: 1%;
+}
+
+.user-message input {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+ 
+}
+
+.user-message p{
+  padding: 1%;
+}
+
+
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
